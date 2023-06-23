@@ -19,6 +19,7 @@ button {
 nav {
     position: top;
     width: 100%;
+    height: 50px;
     background-color: #110801;
     opacity: 0.9;
 }
@@ -30,13 +31,14 @@ nav {
 }
 
 ul {
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
     list-style: none;
     margin-top: 0.8%;
-    margin-left: 2%;
+    margin-right: 2%;
 }
+
 ul li {
     display: inline;
     cursor: pointer;
@@ -68,8 +70,8 @@ footer {
 
   /* index background */
   .back-index {
-    margin-top: 2%;
-    background-image: url('..\photo-pitbull-femme.jpg');
+    margin-top: 30px;
+    background-image: url('image/dana-mediation-enfant.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -83,8 +85,8 @@ footer {
     text-align: center;
   }
 
-/* div index A propos */
-.apropos-index {
+/* div index médiation animale */
+.mediation-index {
   position: relative;
   width: 88%;
   height: 705px;
@@ -101,8 +103,8 @@ footer {
     height: 584px;
 }
 
-/* div Mediation-index*/
-.mediation-index {
+/* div Origine de la médiation - les interventions proposés*/
+.origine-interventions {
   position: relative;
   height: 523;
   width: 88%;
